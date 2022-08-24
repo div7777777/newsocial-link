@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+.body{
+    height: 915px;
+    background: linear-gradient(90deg, orangered, teal);
+}
+/* profil */
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1.5px solid whitesmoke;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 1em white;
+
+}
+/* menu */
+.haut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 0.5px 0.5px 1em white;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 1em white;
+}
+.adres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid white;
+    border-radius:50%;
+    box-shadow: 0.5px 0.5px 1em white;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 1em white;
+}
+/* title */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 45px;
+    font-family: 'El Messiri', sans-serif;
+}
+.symbole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* social */
+.containe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 60px;
+    opacity: 0;
+  
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 0 50% 0 50%;
+    box-shadow: 1px 1px 1.5em white;
+    background: linear-gradient(315deg, teal, orangered);
+    animation: 1s infinite facebook;
+}
+@keyframes facebook{
+    50%{
+        background: linear-gradient(315deg, orangered, teal);
+    }
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50% 0 50% 0;
+    box-shadow: 1px 1px 1.5em white;
+    background: linear-gradient(45deg, teal, orangered);
+    animation: 1s infinite instagram;
+}
+@keyframes instagram{
+    50%{
+        background: linear-gradient(45deg, orangered, teal);
+    }
+}
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 50% 0 50% 0;
+    box-shadow: 1px 1px 1.5em white;
+    background: linear-gradient(45deg, orangered, teal);
+    animation: 1s infinite twitter;
+}
+@keyframes twitter{
+    50%{
+        background: linear-gradient(45deg, teal,orangered);
+    }
+}
+
+.tiktok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 0 50% 0 50%;
+    border: none;
+    box-shadow: 1px 1px 1.5em white;
+    background: linear-gradient(145deg, teal, orangered);
+    animation: 1s infinite twitter;
+}
+@keyframes twitter{
+    50%{
+        background: linear-gradient(145deg, orangered, teal);
+    }
+}
+.lien{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    box-shadow: inset 3px 3px 5em orangered, 1.5px 1.5px 2em white;
+    animation: 2s infinite lien;
+}
+@keyframes lien{
+    50%{
+        box-shadow: 3px 3px 5em orangered, inset 1.5px 1.5px 2em teal;
+    }
+}
+/*  */
+/*  */
+
+  
+  .dark-mode {
+    background: linear-gradient(0deg, teal, orangered);
+    color: white;
+  }
+ 
+
+  .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 75px;
+    background: linear-gradient(90deg, teal 50%, orangered 50%);
+    backdrop-filter: blur(12px);
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0.5px 0.5px 1em white;
+  }
